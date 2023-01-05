@@ -1,0 +1,51 @@
+<button class="stretch">
+    stretch
+</button>
+
+<button class="shadow">
+    shadow
+</button>
+
+<button class="Margpad">
+    One
+</button>
+
+<style>
+    .stretch {
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        vertical-align: top, left;
+        cursor: pointer;
+        transition: hover 5s;
+    }
+
+    .stretch:hover {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .shadow {
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
+        cursor: pointer;
+    }
+
+    .shadow:active {
+        margin-left: 5px;
+        margin-top: 5px;
+        box-shadow: none;
+    }
+</style>
