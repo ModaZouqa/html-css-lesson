@@ -1,12 +1,5 @@
-p {
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .thumbnail {
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 .video-title {
@@ -18,20 +11,16 @@ p {
 }
 
 .video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-}
 
-.search-bar {
-    display: block;
 }
 
 .channel-picture {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
+
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .video-info {
@@ -60,4 +49,11 @@ p {
 
 .video-author {
     margin-bottom: 4px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
